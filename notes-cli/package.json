@@ -1,18 +1,25 @@
 {
-  "name": "rwanda-weather",
+  "name": "notes-cli",
   "version": "1.0.0",
-  "description": "rwanda-weather",
+  "description": "A simple command-line notes application",
   "license": "ISC",
-  "author": "\"Ruth\"",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Ruth",
+  "type": "module",
+  "bin": {
+    "notes": "./notes.js"
   },
-  "devDependencies": {
-    "prettier": "^3.9.10"
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node notes.js",
+    "dev": "node --watch notes.js",
+    "format": "prettier --write \"*.js\" \"package.json\""
   },
   "dependencies": {
     "chalk": "^6.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
   }
 }
