@@ -1,17 +1,21 @@
+
 {
   "name": "rwanda-weather-cli",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A command-line weather application for Rwanda",
+  "type": "module",
+  "bin": {
+    "rwanda-weather": "./bin/cli.js"
   },
-  "keywords": [],
-  "author": "brune",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": ["weather", "rwanda", "cli"],
+  "author": "Brune",
+  "license": "MIT",
   "dependencies": {
-    "chalk": "^6.0.1",
-    "commander": "^15.0.0",
-    "ora": "^10.0.0"
+    "chalk": "^5.6.2",
+    "commander": "^14.0.0",
+    "ora": "^9.0.0"
   }
 }
