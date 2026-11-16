@@ -1,5 +1,3 @@
-
-
 import chalk from "chalk";
 import fs from "node:fs";
 

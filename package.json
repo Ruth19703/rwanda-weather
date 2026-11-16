@@ -1,13 +1,15 @@
+
 {
   "name": "rwanda-weather-cli",
   "version": "1.0.0",
   "description": "A command-line weather application for Rwanda",
   "type": "module",
   "bin": {
-    "rwanda-weather": "./bin/cli.js"
+    "rwanda-weather": "./src/cli.js"
   },
   "scripts": {
-    "start": "node bin/cli.js"
+    "start": "node src/cli.js",
+      "dev": "node src/interactive.js"
   },
   "keywords": [
     "weather",
