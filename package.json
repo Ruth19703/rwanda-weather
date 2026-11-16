@@ -1,4 +1,3 @@
-
 {
   "name": "rwanda-weather-cli",
   "version": "1.0.0",
@@ -10,7 +9,11 @@
   "scripts": {
     "start": "node bin/cli.js"
   },
-  "keywords": ["weather", "rwanda", "cli"],
+  "keywords": [
+    "weather",
+    "rwanda",
+    "cli"
+  ],
   "author": "Brune",
   "license": "MIT",
   "dependencies": {
