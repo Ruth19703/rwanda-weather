@@ -1,10 +1,11 @@
+
 import chalk from "chalk";
 import ora from "ora";
 
 import {
   getCurrentWeather,
   getForecast
-} from "../services/weatherApi.js";
+} from "./weatherApi.js";
 
 // Display current weather
 export async function showWeather(city) {
